@@ -11,7 +11,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:3000", // ✅ REPLACE with your deployed frontend URL
+    origin: "https://connectify-fs61.onrender.com", // ✅ REPLACE with your deployed frontend URL
     methods: ["GET", "POST"],
   },
 });
